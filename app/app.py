@@ -3,6 +3,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
+spell = st.secrets['spell']
+key = st.secrets.some_magic_api.key
+
 st.markdown("""# My First Streamlit app
 ## Use the slider to see the dataframe
 Try it out!""")
